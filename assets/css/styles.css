@@ -607,6 +607,46 @@ img {
  
 
 }
+/* ===== MEDIA QUERIES=====*/
+@media screen and (max-width: 320px) {
+  .home {
+    row-gap: 2rem;
+  }
+  .home__img {
+    width: 200px;
+  }
+  
+ 
+}
+
+@media screen and (max-width: 575px){
+  .container-adultos,
+  .container-adolescentes,
+  .container-parejas{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px; 
+  }
+  .contact__form {
+    width: 85%;
+    padding-top: 2rem;
+    margin: 0 auto;
+  }
+  .nav {
+    height: calc(var(--header-height) + 1.4rem);
+  }
+  .top__how2-img,
+  .bottom__how2-img{
+    /* background: seagreen; */
+    grid-template-columns: 1fr;
+  }
+
+  .bottom__how2-img{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
 
 @media screen and (min-width: 768px) {
   
