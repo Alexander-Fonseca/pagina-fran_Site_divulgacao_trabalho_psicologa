@@ -401,6 +401,7 @@ img {
 
 .container-adultos img:hover,
 .container-adolescentes img:hover,
+.container-cura img:hover,
 .container-parejas img:hover {
   transform: scale(1.1);
 }
@@ -607,7 +608,7 @@ img {
  
 
 }
-/* ===== MEDIA QUERIES=====*/
+/* ===== MEDIA2 QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
