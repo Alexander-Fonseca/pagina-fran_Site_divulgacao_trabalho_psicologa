@@ -404,7 +404,37 @@ img {
 .container-parejas img:hover {
   transform: scale(1.1);
 }
+.contenedor__how2-img {
+  margin: 0 10%;
+  font-size: var(--small-font-size);
+}
 
+
+.top__how2-img{
+  display: grid;
+  grid-template-columns: 1fr 300px;
+}
+
+.bottom__how2-img{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.top__how2-img-img{
+  margin: auto;
+}
+
+.top__how2-img-text{
+  margin: 10px;
+}
+
+.bottom__how2-img-text{
+  margin: 10px;
+}
+
+.bottom__how2-img-img{
+  margin: auto;
+}
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
