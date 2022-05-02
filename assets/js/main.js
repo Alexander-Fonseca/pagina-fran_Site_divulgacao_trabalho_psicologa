@@ -56,6 +56,7 @@ sr.reveal('.home__social-icon',{ interval: 200});
 sr.reveal('.contact__input',{interval: 200}); 
 sr.reveal('.servicio__texto,.servicio__texto-comillas,.lista,.work__container',{interval: 200}); 
 sr.reveal('.top__how-img,.bottom__how-img',{interval: 200}); 
+sr.reveal('.top__how2-img,.bottom__how2-img',{interval: 200}); 
 
 /*===== SCROLL TOP =====*/
 
