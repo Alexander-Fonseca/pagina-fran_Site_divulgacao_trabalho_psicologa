@@ -445,6 +445,7 @@ img {
 
 /* ===== CONTACT =====*/
 .contact__input {
+  
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -691,7 +692,7 @@ img {
   }
 
   .section-title::after {
-    width: 80px;
+    width: 250px;       
     top: 3rem;
   }
 
