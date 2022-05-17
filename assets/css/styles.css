@@ -113,8 +113,9 @@ img {
 }
 
 .bd-grid > ul{
-  column-gap: 200px;
+  column-gap: 140px;
   columns: 2;
+
 }
 
 .l-header {
